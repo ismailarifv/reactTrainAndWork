@@ -1,0 +1,23 @@
+.category ul li{
+  list-style-type: none;
+  margin: 40px 20px;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+.category ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+}
+.category ul{
+margin: 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+}
+
+.card img{
+  width: 100%;
+  height: 50%;
+}
+.logo{
+  width: 5%;
+}
