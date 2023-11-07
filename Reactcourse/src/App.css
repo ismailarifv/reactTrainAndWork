@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+  
+  color: whitesmoke;
+}
+.Header{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  background-color: brown;
+}
+.Header img{
+  width: 5%;
+  margin: 5px;
+}
+.links{
+  display: flex;
+  width: 90%;
+  justify-content: end;
+}
+.links li{
+  list-style: none;
+  margin: 0px 20px;
+}
+.links li a{
+  text-decoration: none;
+  color: antiquewhite;
+
+}
+
+.Main{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.Category{
+  width: 20%;
+  height: 100vh;
+  background-color: aqua;
+  
+}
+.Category ul li{
+ list-style: none;
+ text-align: center;
+
+}
+.Category ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  margin: 15px 0px;
+ }
+.Urun{
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.card{
+width: 30%;
+border: 3px solid black;
+border-radius: 5px;
+margin: 5px;
+background-color: rgb(148, 148, 148);
+}
+.Urun img{
+  width: 40%;
+}
